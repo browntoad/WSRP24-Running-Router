@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       161,          7]
-NotebookDataLength[    103234,       1952]
-NotebookOptionsPosition[    101348,       1914]
-NotebookOutlinePosition[    101754,       1930]
-CellTagsIndexPosition[    101711,       1927]
+NotebookDataLength[    104325,       1981]
+NotebookOptionsPosition[    102245,       1941]
+NotebookOutlinePosition[    102651,       1957]
+CellTagsIndexPosition[    102608,       1954]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1909,7 +1909,34 @@ Cell[BoxData[
  CellChangeTimes->{3.929029515097685*^9},
  CellLabel->
   "Out[344]=",ExpressionUUID->"a09dab29-b536-6f48-8aef-d0aa8b2ee114"]
-}, Open  ]]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"GeoGraphPlot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"GeoPosition", "[", 
+      RowBox[{"{", 
+       RowBox[{"50", ",", "60.1"}], "}"}], "]"}], "\[UndirectedEdge]", 
+     RowBox[{"GeoPosition", "[", 
+      RowBox[{"{", 
+       RowBox[{"50.125", ",", "59.1"}], "}"}], "]"}]}], "}"}], ",", " ", 
+   RowBox[{"GraphLayout", "->", "\"\<Walking\>\""}]}], "]"}]], "Input",Express\
+ionUUID->"05410f22-a94e-e14e-ae7c-40a34a96dbc2"],
+
+Cell["\<\
+
+Made a neat little function that takes a cycle length, starting node, and \
+graph, and draws out the cycle.
+
+Figured out GeoGraphPlot can take two GeoPositions connected by an edge, and \
+help \[OpenCurlyDoubleQuote]walk\[CloseCurlyDoubleQuote] through the two \
+edges. \
+\>", "Text",
+ CellChangeTimes->{{3.929029568091713*^9, 
+  3.9290296889387264`*^9}},ExpressionUUID->"baccb388-e559-9f49-b62c-\
+5445f07b5a35"]
 }, Open  ]]
 },
 WindowSize->{960, 508},
@@ -1952,7 +1979,9 @@ Cell[73222, 1410, 4186, 76, 181, "Input",ExpressionUUID->"26cb06c8-c82d-324b-afa
 Cell[77411, 1488, 5425, 84, 154, "Output",ExpressionUUID->"66c403b1-1adc-104f-8d2a-05426ced76c5"],
 Cell[82839, 1574, 752, 16, 32, "Output",ExpressionUUID->"6f090711-9ca8-5147-b490-cd4c6c2f9d0d"],
 Cell[83594, 1592, 17726, 318, 154, "Output",ExpressionUUID->"a09dab29-b536-6f48-8aef-d0aa8b2ee114"]
-}, Open  ]]
+}, Open  ]],
+Cell[101335, 1913, 468, 12, 28, "Input",ExpressionUUID->"05410f22-a94e-e14e-ae7c-40a34a96dbc2"],
+Cell[101806, 1927, 423, 11, 104, "Text",ExpressionUUID->"baccb388-e559-9f49-b62c-5445f07b5a35"]
 }, Open  ]]
 }
 ]
