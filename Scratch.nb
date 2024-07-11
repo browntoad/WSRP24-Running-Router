@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       161,          7]
-NotebookDataLength[    104325,       1981]
-NotebookOptionsPosition[    102245,       1941]
-NotebookOutlinePosition[    102651,       1957]
-CellTagsIndexPosition[    102608,       1954]
+NotebookDataLength[    105151,       2008]
+NotebookOptionsPosition[    102753,       1963]
+NotebookOutlinePosition[    103153,       1979]
+CellTagsIndexPosition[    103110,       1976]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1936,11 +1936,33 @@ edges. \
 \>", "Text",
  CellChangeTimes->{{3.929029568091713*^9, 
   3.9290296889387264`*^9}},ExpressionUUID->"baccb388-e559-9f49-b62c-\
-5445f07b5a35"]
+5445f07b5a35"],
+
+Cell["", "Text",
+ CellChangeTimes->{{3.9292889710143127`*^9, 
+  3.92928897295142*^9}},ExpressionUUID->"e7009f2e-5013-3345-85e0-\
+924d8af60a63"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+7/7 Progress
+
+\
+\>", "Subtitle",
+ CellChangeTimes->{{3.929288993322092*^9, 
+  3.929289012945019*^9}},ExpressionUUID->"1d38d070-73fa-e848-9a0f-\
+e82f2fc3cd75"],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.929288980231699*^9, 
+  3.9292889812991943`*^9}},ExpressionUUID->"25de6f13-3597-c746-92f2-\
+f780622327a3"]
 }, Open  ]]
 },
-WindowSize->{960, 508},
-WindowMargins->{{-5.5, Automatic}, {Automatic, -5.5}},
+WindowSize->{949, 497},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
 FrontEndVersion->"14.0 for Microsoft Windows (64-bit) (December 16, 2023)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"d12bac99-e775-7344-a29a-f4f2c555c55c"
@@ -1981,7 +2003,12 @@ Cell[82839, 1574, 752, 16, 32, "Output",ExpressionUUID->"6f090711-9ca8-5147-b490
 Cell[83594, 1592, 17726, 318, 154, "Output",ExpressionUUID->"a09dab29-b536-6f48-8aef-d0aa8b2ee114"]
 }, Open  ]],
 Cell[101335, 1913, 468, 12, 28, "Input",ExpressionUUID->"05410f22-a94e-e14e-ae7c-40a34a96dbc2"],
-Cell[101806, 1927, 423, 11, 104, "Text",ExpressionUUID->"baccb388-e559-9f49-b62c-5445f07b5a35"]
+Cell[101806, 1927, 423, 11, 104, "Text",ExpressionUUID->"baccb388-e559-9f49-b62c-5445f07b5a35"],
+Cell[102232, 1940, 143, 3, 35, "Text",ExpressionUUID->"e7009f2e-5013-3345-85e0-924d8af60a63"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[102412, 1948, 168, 7, 117, "Subtitle",ExpressionUUID->"1d38d070-73fa-e848-9a0f-e82f2fc3cd75"],
+Cell[102583, 1957, 154, 3, 28, "Input",ExpressionUUID->"25de6f13-3597-c746-92f2-f780622327a3"]
 }, Open  ]]
 }
 ]
